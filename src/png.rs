@@ -7,8 +7,8 @@ use std::path::Path;
 use std::str::FromStr;
 
 use crate::chunk;
-use crate::chunk::Chunk;
-use crate::chunk_type::ChunkType;
+pub use crate::chunk::Chunk;
+pub use crate::chunk_type::ChunkType;
 use crate::{Error, Result};
 
 pub struct Png {
